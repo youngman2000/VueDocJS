@@ -1,4 +1,4 @@
-import{K as u,M as _,N as s,O as r,Q as i,a as o,R as d,S as e,U as t,Y as m,Z as h}from"./index-b0faf41e.js";const v={code1:`import {createApp}} from 'vue'
+import{K as u,M as _,N as s,O as r,Q as i,a as o,R as d,S as e,U as t,Y as m,Z as h}from"./index-8aec7996.js";const v={code1:`import {createApp}} from 'vue'
 
 const app = createApp({
     /* 根组件选项 *
