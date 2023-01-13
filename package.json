@@ -12,6 +12,7 @@
     "@ant-design/icons-vue": "^6.1.0",
     "@highlightjs/vue-plugin": "^2.1.0",
     "ant-design-vue": "^3.2.15",
+    "element-plus": "^2.2.28",
     "highlight.js": "^11.7.0",
     "sass": "^1.57.1",
     "unplugin-auto-import": "^0.12.1",

@@ -3,11 +3,11 @@
     <a-typography-text strong>API风格偏好</a-typography-text>
     <div class="api-switch">
       <a-row>
-        <a-col :span="8" :class="apiChecked?'':'checked'">选项式</a-col>
+        <a-col :span="8" :class="apiChecked ? '' : 'checked'">选项式</a-col>
         <a-col :span="8">
           <a-switch size="small" v-model:checked="apiChecked"></a-switch>
         </a-col>
-        <a-col :span="8" :class="apiChecked?'checked':''">组合式</a-col>
+        <a-col :span="8" :class="apiChecked ? 'checked' : ''">组合式</a-col>
       </a-row>
     </div>
     <a-divider></a-divider>
@@ -32,13 +32,14 @@ export default {
       apiChecked,
       link: [
         { name: "开始" },
-        { name: "简介", href: "introduction" },
-        { name: "快速上手", href: "quick-start" }
-      ]
+        { name: "简介", href: "/introduction" },
+        { name: "快速上手", href: "/quick-start" },
+        { name: "基础" },
+        { name: "创建一个应用", href: "/essentials/application" },
+      ],
     };
-  }
+  },
 };
-
 </script>
 
 <style scoped lang="scss">
@@ -59,5 +60,4 @@ export default {
     color: #000;
   }
 }
-
 </style>
