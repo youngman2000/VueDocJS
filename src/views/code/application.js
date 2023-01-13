@@ -15,6 +15,21 @@ const app = createApp(App)`,
             TodoEditButton
         TodoFooter
             TodoClearButton
-            TodoStatistics`
+            TodoStatistics`,
+    code4:`<div id="app></div>
+app.mount("#app")`,
+    code5:`<div id="app">
+ <button @click="count++">{{count}}</button>
+</div>`,
+    code6:`import createApp from 'vue'
+  
+const app = createApp({
+    data(){
+        return {
+            count: 0
+        }
+    }
+})
+ app.mount("#app") `
 }
 export {code}
